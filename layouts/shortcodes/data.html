@@ -1,17 +1,12 @@
-{{ $path := (.Get 0) | string }}
-{{ $value := (.Get 1) | string }}
+{{ $path := split (.Get 0) "/" }}
 
-{{ if in $path "/" }}
-  {{ $split := split $path "/" }}
+{{ $result := .Site.Data }}
 
-  {{ range $key, $split }}
-    <!-- este key, lo necesito en la linea 11: (index .Site.Data "hola" "people")-->
-    {{ $key }} 
-  {{ end }}
+{{ range $key := $path }}
+  {{ $result = index $result $key }}
+{{ end }}
 
-    <h1>{{ ( index (index .Site.Data ) $value) }}</h1>
-{{else}}
-  <h1>{{ ( index .Site.Data $path $value) }}</h1>
-{{end}}
+{{ $result }}
+<br>
 
 

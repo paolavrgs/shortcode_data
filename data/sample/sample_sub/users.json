@@ -1,0 +1,68 @@
+{
+  "1": {
+  "id": "1",
+  "type": "users",
+  "attributes": {
+    "email": "erich_fay@gmail.com",
+    "name": "Grant Cartwright III",
+    "nickname": "blanca_stracke",
+      "avatar": {
+    "url": null
+    },
+    "url": "/v1/users/blanca_stracke",
+    "created_at": "2018-12-10T11:30:42.563Z",
+    "updated_at": "2018-12-10T11:30:42.563Z",
+    "offers": [],
+    "censured": false,
+    "slug": "blanca_stracke",
+    "dni": null,
+    "gender": "female",
+    "birth_date": null,
+    "country": null
+    }
+  },
+  "2": {
+    "id": "2",
+    "type": "users",
+    "attributes": {
+      "email": "willie_johnson@hotmail.com",
+      "name": "Alta Senger",
+      "nickname": "quentin",
+      "avatar": {
+        "url": null
+      },
+      "url": "/v1/users/quentin",
+      "created_at": "2018-12-10T11:30:47.278Z",
+      "updated_at": "2018-12-10T11:30:47.278Z",
+      "offers": [],
+      "censured": false,
+      "slug": "quentin",
+      "dni": null,
+      "gender": "female",
+      "birth_date": null,
+      "country": null
+    }
+  },
+  "3": {
+    "id": "3",
+    "type": "users",
+    "attributes": {
+      "email": "myrtle.windler@gmail.com",
+      "name": "Tomas Lind",
+      "nickname": "hobart.kling",
+      "avatar": {
+        "url": null
+      },
+      "url": "/v1/users/hobart-kling",
+      "created_at": "2018-12-10T11:30:51.481Z",
+      "updated_at": "2018-12-10T11:30:51.481Z",
+      "offers": [],
+      "censured": false,
+      "slug": "hobart-kling",
+      "dni": null,
+      "gender": "male",
+      "birth_date": null,
+      "country": null
+    }
+  }
+}
